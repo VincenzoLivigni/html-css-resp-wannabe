@@ -133,8 +133,21 @@ img {
     .container{width: 100%;}
 }
 
-/* tablet */
-@media screen and (max-width: 768px){
+/* mobile */
+@media screen and (max-width: 480px){
 
     .container{width: 100%;}
+
+    .row {flex-wrap: wrap;
+          gap: 70px}
+    
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {width: 100%;}
+
+    .why-us {background-color: #222222;
+             margin: -3rem 0;
+             padding: 3rem 0;}
+
 }
